@@ -12,10 +12,10 @@
 		843D42DB1CC2DA5800B8B003 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843D42D91CC2DA5800B8B003 /* Main.storyboard */; };
 		843D42DD1CC2DA5900B8B003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843D42DC1CC2DA5900B8B003 /* Assets.xcassets */; };
 		843D42E01CC2DA5900B8B003 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843D42DE1CC2DA5900B8B003 /* LaunchScreen.storyboard */; };
-		845804471CC46510001C296F /* PlayersViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845804461CC46510001C296F /* PlayersViewControllerTableViewController.swift */; };
 		845804491CC466B7001C296F /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845804481CC466B7001C296F /* PlayersViewController.swift */; };
 		8458044B1CC46727001C296F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458044A1CC46727001C296F /* Player.swift */; };
 		8458044D1CC46823001C296F /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458044C1CC46823001C296F /* SampleData.swift */; };
+		845804531CC47B7A001C296F /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845804521CC47B7A001C296F /* PlayerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +26,10 @@
 		843D42DC1CC2DA5900B8B003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		843D42DF1CC2DA5900B8B003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		843D42E11CC2DA5900B8B003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		845804461CC46510001C296F /* PlayersViewControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersViewControllerTableViewController.swift; sourceTree = "<group>"; };
 		845804481CC466B7001C296F /* PlayersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
 		8458044A1CC46727001C296F /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		8458044C1CC46823001C296F /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		845804521CC47B7A001C296F /* PlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerCell.swift; path = ../PlayerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +62,10 @@
 		843D42D41CC2DA5800B8B003 /* Assignment_1 */ = {
 			isa = PBXGroup;
 			children = (
+				845804521CC47B7A001C296F /* PlayerCell.swift */,
 				843D42D51CC2DA5800B8B003 /* AppDelegate.swift */,
 				843D42D71CC2DA5800B8B003 /* ViewController.swift */,
 				843D42D91CC2DA5800B8B003 /* Main.storyboard */,
-				845804461CC46510001C296F /* PlayersViewControllerTableViewController.swift */,
 				845804481CC466B7001C296F /* PlayersViewController.swift */,
 				8458044A1CC46727001C296F /* Player.swift */,
 				8458044C1CC46823001C296F /* SampleData.swift */,
@@ -147,10 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845804531CC47B7A001C296F /* PlayerCell.swift in Sources */,
 				843D42D81CC2DA5800B8B003 /* ViewController.swift in Sources */,
 				8458044D1CC46823001C296F /* SampleData.swift in Sources */,
 				845804491CC466B7001C296F /* PlayersViewController.swift in Sources */,
-				845804471CC46510001C296F /* PlayersViewControllerTableViewController.swift in Sources */,
 				8458044B1CC46727001C296F /* Player.swift in Sources */,
 				843D42D61CC2DA5800B8B003 /* AppDelegate.swift in Sources */,
 			);

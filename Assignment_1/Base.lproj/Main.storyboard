@@ -60,7 +60,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="PlayerCell" editingAccessoryType="disclosureIndicator" rowHeight="60" id="EGD-vE-HGG">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="PlayerCell" editingAccessoryType="disclosureIndicator" rowHeight="60" id="EGD-vE-HGG" customClass="PlayerCell" customModule="Assignment_1" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="92" width="600" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EGD-vE-HGG" id="ytZ-G2-U7J">
@@ -91,6 +91,12 @@
                                                 <constraint firstItem="ai7-qI-C0b" firstAttribute="top" secondItem="33Y-LT-wtG" secondAttribute="top" constant="28" id="PZL-Uh-J1W"/>
                                                 <constraint firstItem="ai7-qI-C0b" firstAttribute="top" secondItem="33Y-LT-wtG" secondAttribute="top" constant="28" id="v0e-ky-HZq"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="PZL-Uh-J1W"/>
+                                                    <exclude reference="v0e-ky-HZq"/>
+                                                </mask>
+                                            </variation>
                                         </stackView>
                                     </subviews>
                                     <constraints>
@@ -100,6 +106,11 @@
                                         <constraint firstItem="33Y-LT-wtG" firstAttribute="leading" secondItem="ytZ-G2-U7J" secondAttribute="leadingMargin" constant="20" id="W7R-ZM-Ent"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="gameLabel" destination="ai7-qI-C0b" id="UBb-QW-c7g"/>
+                                    <outlet property="nameLabel" destination="7JJ-fn-xqW" id="TbY-ZS-0eh"/>
+                                    <outlet property="ratingImageView" destination="cfq-j4-6L7" id="4df-hG-0ow"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
