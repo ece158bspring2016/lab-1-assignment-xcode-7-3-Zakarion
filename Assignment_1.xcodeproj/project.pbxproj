@@ -15,6 +15,7 @@
 		845804471CC46510001C296F /* PlayersViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845804461CC46510001C296F /* PlayersViewControllerTableViewController.swift */; };
 		845804491CC466B7001C296F /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845804481CC466B7001C296F /* PlayersViewController.swift */; };
 		8458044B1CC46727001C296F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458044A1CC46727001C296F /* Player.swift */; };
+		8458044D1CC46823001C296F /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458044C1CC46823001C296F /* SampleData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		845804461CC46510001C296F /* PlayersViewControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersViewControllerTableViewController.swift; sourceTree = "<group>"; };
 		845804481CC466B7001C296F /* PlayersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
 		8458044A1CC46727001C296F /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		8458044C1CC46823001C296F /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				845804461CC46510001C296F /* PlayersViewControllerTableViewController.swift */,
 				845804481CC466B7001C296F /* PlayersViewController.swift */,
 				8458044A1CC46727001C296F /* Player.swift */,
+				8458044C1CC46823001C296F /* SampleData.swift */,
 				843D42DC1CC2DA5900B8B003 /* Assets.xcassets */,
 				843D42DE1CC2DA5900B8B003 /* LaunchScreen.storyboard */,
 				843D42E11CC2DA5900B8B003 /* Info.plist */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				843D42D81CC2DA5800B8B003 /* ViewController.swift in Sources */,
+				8458044D1CC46823001C296F /* SampleData.swift in Sources */,
 				845804491CC466B7001C296F /* PlayersViewController.swift in Sources */,
 				845804471CC46510001C296F /* PlayersViewControllerTableViewController.swift in Sources */,
 				8458044B1CC46727001C296F /* Player.swift in Sources */,
