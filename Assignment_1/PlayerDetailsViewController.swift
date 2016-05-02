@@ -14,6 +14,11 @@ class PlayerDetailsViewController: UITableViewController {
     @IBOutlet weak var nameTextField: UITextField!
     
     var player:Player?
+    var game:String = "Pop the Bubble"{
+        didSet {
+            detailLabel.text? = game
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,13 +53,20 @@ class PlayerDetailsViewController: UITableViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
         if(segue.identifier == "SavePlayerDetail"){
-            player = Player(name: nameTextField.text!, game:"Chess", rating: 1)
+            player = Player(name: nameTextField.text!, game:game, rating: 2)
+        }
+        
+        
+        if segue.identifier == "PickGame" {
+            if let GamePickerViewController = segue.destinationViewController as? GamePickerViewController{
+                GamePickerViewController.selectedGame = game
+            }
         }
     }
     
-    @IBAction func cancelToPlayersViewController(segue:UIStoryboardSegue){
-        
+    @IBAction func unwindWithSelectedGame(segue:UIStoryboardSegue) {
+        if let GamePickerViewController = segue.sourceViewController as? GamePickerViewController, selectedGame = GamePickerViewController.selectedGame {
+            game = selectedGame
+        }
     }
-    
-
 }

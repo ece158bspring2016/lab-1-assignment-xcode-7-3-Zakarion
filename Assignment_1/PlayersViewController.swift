@@ -49,6 +49,9 @@ class PlayersViewController: UITableViewController {
             return cell
     }
     
+    @IBAction func cancelToPlayersViewController(segue:UIStoryboardSegue) {
+    }
+    
     @IBAction func savePlayerDetail(segue:UIStoryboardSegue){
         if let PlayerDetailsViewController = segue.sourceViewController as? PlayerDetailsViewController {
             
@@ -62,4 +65,6 @@ class PlayersViewController: UITableViewController {
             
         }
     }
+    
+
 }
