@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		843850E51CD6D3BD00071B30 /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843850E41CD6D3BD00071B30 /* PlayerDetailsViewController.swift */; };
 		843D42D61CC2DA5800B8B003 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843D42D51CC2DA5800B8B003 /* AppDelegate.swift */; };
 		843D42D81CC2DA5800B8B003 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843D42D71CC2DA5800B8B003 /* ViewController.swift */; };
 		843D42DB1CC2DA5800B8B003 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843D42D91CC2DA5800B8B003 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		843850E41CD6D3BD00071B30 /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
 		843D42D21CC2DA5800B8B003 /* Assignment_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		843D42D51CC2DA5800B8B003 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		843D42D71CC2DA5800B8B003 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				843D42D51CC2DA5800B8B003 /* AppDelegate.swift */,
 				843D42D71CC2DA5800B8B003 /* ViewController.swift */,
 				843D42D91CC2DA5800B8B003 /* Main.storyboard */,
+				843850E41CD6D3BD00071B30 /* PlayerDetailsViewController.swift */,
 				846941B01CC99ABA00554B6B /* 1Stars.png */,
 				846941B11CC99ABA00554B6B /* 1Stars@2x.png */,
 				846941B21CC99ABA00554B6B /* 1Stars@3x.png */,
@@ -234,6 +237,7 @@
 				845804531CC47B7A001C296F /* PlayerCell.swift in Sources */,
 				843D42D81CC2DA5800B8B003 /* ViewController.swift in Sources */,
 				8458044D1CC46823001C296F /* SampleData.swift in Sources */,
+				843850E51CD6D3BD00071B30 /* PlayerDetailsViewController.swift in Sources */,
 				845804491CC466B7001C296F /* PlayersViewController.swift in Sources */,
 				8458044B1CC46727001C296F /* Player.swift in Sources */,
 				843D42D61CC2DA5800B8B003 /* AppDelegate.swift in Sources */,
